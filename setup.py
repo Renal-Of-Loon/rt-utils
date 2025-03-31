@@ -14,7 +14,6 @@ setuptools.setup(
     description="A small library for handling masks and RT-Structs",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    package_dir={'':"rt_utils"},
     packages=["rt_utils"],
     keywords=["RTStruct", "Dicom", "Pydicom"],
     classifiers=[
