@@ -15,7 +15,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     package_dir={'':"rt_utils"},
-    packages=setuptools.find_packages("rt_utils", exclude="tests"),
+    packages=["rt_utils"],
     keywords=["RTStruct", "Dicom", "Pydicom"],
     classifiers=[
         "Operating System :: OS Independent",
